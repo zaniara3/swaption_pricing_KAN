@@ -50,7 +50,6 @@ Swaptions (European-style options on interest-rate swaps) are priced here using 
 ```bash
 git clone https://github.com/zaniara3/swaption_pricing_KAN.git
 cd swaption_pricing_KAN
-pip install -r requirements.txt
 ```
 ## Create and activate a virtual environment (recommended)
 
@@ -66,7 +65,10 @@ python -m venv .venv
 ```
 
 ## Usage
-
+### Install packages
+```bash
+pip install -r requirements.txt
+```
 ### Generate Training Samples
 ```bash
 python src/generate_random_samples_for_network.py
